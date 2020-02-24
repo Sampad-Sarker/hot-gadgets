@@ -1,0 +1,132 @@
+.navbar-brand img {
+    height: 3.125rem;
+}
+
+.navbar-nav a {
+    font-size: small;
+}
+
+.carousel-item p {
+    /* color: dimgray; */
+    text-align: justify;
+}
+
+ol.carousel-indicators li {
+    background-color: lightgray;
+    height: 0.25rem;
+    width: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 0px;
+}
+
+ol.carousel-indicators li.active {
+    background-image: linear-gradient(to right, #FFBD24, #FFD019);
+    height: 0.25rem;
+    width: 1.563rem;
+    border: none;
+    border-radius: 0.313rem;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+button {
+    background-color: black;
+    color: #ffffff;
+}
+
+.see-all-color {
+    color: #FFBD24;
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 30px lightgray;
+    border-radius: 5rem;
+}
+
+.card-footer {
+    border: none;
+    background-color: #ffffff;
+}
+
+.container.phone,
+.container.laptop,
+.container.cat,
+.container.foot-sction {
+    margin-bottom: 6.25rem;
+}
+
+.cat h2 {
+    height: 55px;
+    border-radius: 50%;
+    border-bottom: 70px solid;
+    border-image: linear-gradient(to right, #FFD019, #FFBD24);
+    border-image-slice: 1;
+    border-bottom-width: 5px;
+    margin-bottom: 100px;
+}
+
+#img-Width {
+    width: 100%;
+    box-shadow: none;
+}
+
+
+/* .main-part{
+    background-color: salmon;
+    border: 2px solid red;
+}
+
+.left-part{
+    background-color: darkgreen;
+    border: 2px solid blue;
+}
+
+.right-part{
+    background-color: lightskyblue;
+    border: 2px solid green;
+}
+
+.frow{
+    background-color: green;
+}
+.srow{
+    background-color: hotpink;
+} */
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li a {
+    color: dimgray;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.foot-sction {
+    padding: 0px;
+}
+
+placeholder {
+    font-size: smaller;
+}
+
+i {
+    color: lightblue;
+}
